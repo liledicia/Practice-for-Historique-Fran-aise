@@ -1,34 +1,103 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Le français au Québec</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="hero">
+    <nav class="nav">
+      <div class="logo">Le français au Québec</div>
+      <div class="nav-links">
+        <a href="index.html">Accueil</a>
+        <a href="history.html">Histoire</a>
+        <a href="laws.html">Politiques linguistiques</a>
+        <a href="identity.html">Langue et identité</a>
+      </div>
+    </nav>
 
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Website</title>
-    <link rel="stylesheet" href="./style.css">
-    <style>
-    body {
-      background-color: #ffb6c1;
-      color: #1a4fa0;
-    }
-    h1 {
-      color: #1a4fa0;
-    }
-    a {
-      color: #e040fb;
-    }
-  </style>
-  </head>
+    <section class="hero-content">
+      <p class="eyebrow">Projet numérique</p>
+      <h1>Le français au Québec</h1>
+      <p class="lead">
+        Le Québec occupe une place particulière dans l’histoire de la langue française.
+        Depuis la Nouvelle-France jusqu’aux débats actuels sur la protection du français,
+        la langue a été au centre de la vie politique, sociale et culturelle de la province.
+      </p>
+      <p class="lead">
+        Ce site présente quelques étapes essentielles de cette histoire, ainsi que les
+        grandes politiques linguistiques et certaines questions d’identité qui marquent
+        encore le Québec aujourd’hui.
+      </p>
+    </section>
+  </header>
 
-  <body>
+  <main class="container">
+    <section class="section">
+      <h2>Chronologie</h2>
+      <p>
+        La chronologie ci-dessous retrace dix moments clés de l’histoire du français au Québec,
+        depuis l’arrivée des Français en Amérique du Nord jusqu’aux lois linguistiques du XXIe siècle.
+      </p>
+      <div class="timeline-wrapper">
+        <iframe
+          src="https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=v2%3A2PACX-1vSeWuGALrEQYOXce-Tb18Y2PKePK5PTrKx1ULPWU48hiLSsXmXn-WdGXW_MtdVr1s-YA1Sh1IPHavI-&font=Default&lang=fr&initial_zoom=2&width=100%25&height=650"
+          width="100%"
+          height="650"
+          webkitallowfullscreen
+          mozallowfullscreen
+          allowfullscreen
+          frameborder="0"
+          title="Chronologie du français au Québec">
+        </iframe>
+      </div>
+    </section>
 
-    <main>
-      <h1>Hello! Welcome to My Website</h1>
-      <p>This is a paragraph of text!</p>
-      <a href="about.html">This is a link to go to learn about me.</a>
-      <p>How does this feel</p>
-    </main>
+    <section class="section">
+      <h2>Aperçu général</h2>
+      <div class="grid two">
+        <article class="card">
+          <h3>Une langue d’histoire</h3>
+          <p>
+            Le français s’implante au Québec avec la colonisation française au XVIIe siècle.
+            Après la conquête britannique, il ne disparaît pas. Au contraire, il devient
+            progressivement un élément central de l’identité québécoise.
+          </p>
+        </article>
+        <article class="card">
+          <h3>Une langue de politique</h3>
+          <p>
+            Au XXe siècle, surtout après la Révolution tranquille, le français devient
+            aussi un enjeu politique majeur. Plusieurs lois sont adoptées pour renforcer
+            sa place dans l’éducation, le travail, l’administration et l’espace public.
+          </p>
+        </article>
+      </div>
+    </section>
 
-  </body>
+    <section class="section">
+      <h2>Explorer le site</h2>
+      <div class="grid three">
+        <a class="card link-card" href="history.html">
+          <h3>Histoire</h3>
+          <p>Des débuts de la Nouvelle-France à la Révolution tranquille.</p>
+        </a>
+        <a class="card link-card" href="laws.html">
+          <h3>Politiques linguistiques</h3>
+          <p>Les grandes lois qui ont protégé et encadré l’usage du français au Québec.</p>
+        </a>
+        <a class="card link-card" href="identity.html">
+          <h3>Langue et identité</h3>
+          <p>Le joual, Speak White et les débats actuels sur la langue et la culture.</p>
+        </a>
+      </div>
+    </section>
+  </main>
 
+  <footer class="footer">
+    <p>Projet numérique — Histoire de la langue française</p>
+  </footer>
+</body>
 </html>
